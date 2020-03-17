@@ -65,6 +65,9 @@ or simply with a web browser.
 will create a TinyCoreLinux extension `libunwind8.tcz` that can be installed on a piCore system.
 
 
-Resources
----------
+References
+----------
 
+- http://forum.tinycorelinux.net/index.php/topic,2325.msg12127.html
+- http://pastebin.com/ed5KSPsH
+- https://gist.github.com/nuxlli/ddd3fa2ceed7b2cecdd3
