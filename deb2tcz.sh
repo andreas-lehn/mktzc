@@ -84,7 +84,7 @@ done
 
 # squash the files together as an TinyCoreLinx extension
 rm -f $extension.tcz
-mksquashfs $filesdir $extension.tcz
+mksquashfs $filesdir $extension.tcz > /dev/null
 
 # calculate the md5 sum
 md5sum $extension.tcz > $extension.tcz.md5.txt
