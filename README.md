@@ -64,6 +64,14 @@ or simply with a web browser.
 
 will create a TinyCoreLinux extension `libunwind8.tcz` that can be installed on a piCore system.
 
+Sometimes not all files of the debian package are necessary for the TinyCoreLinux extension.
+With `-e` option files can be excluded:
+
+    deb2tcz.sh -e usr/share/doc libunwind8_1.2.1-9_armhf.deb
+
+excludes the directory `usr/share/doc` and all files and directories contained in that directory
+from the TinyCoreLinux extension.
+
 
 References
 ----------
